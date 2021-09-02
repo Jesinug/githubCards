@@ -13,7 +13,7 @@ class Form extends React.Component {
       render() {
         return (
           <form onSubmit={ this.handleSubmit }>
-            <input 
+            <input
               type='text'
               placeholder='Github username'
               value = {this.state.userName}

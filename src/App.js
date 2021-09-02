@@ -1,5 +1,8 @@
+
 import React from 'react';
 import './App.css';
+import CardList from './Components/CardList/CardList';
+import Form from './Components/Form/Form';
 
 class App extends React.Component {
   constructor(props) {
@@ -7,14 +10,13 @@ class App extends React.Component {
       this.state = {
         profiles: [],
       }; 
-  
     
-  addNewProfile = (profileData) => {
+  let addNewProfile = (profileData) => {
     this.setState(prevState => ({
       profiles: [...prevState.profiles, profileData],
-    }));
-  };
-
+    }))
+  }
+}
   render() {
     return (
       <>
@@ -26,5 +28,4 @@ class App extends React.Component {
   };
 }
 
-
-export default App;
+export default App
