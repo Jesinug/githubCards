@@ -1,5 +1,7 @@
 .github-profile {
+    display: flex;
 	margin: 1rem;
+    color: white;
 }
 .github-profile img {
     width: 75px;
