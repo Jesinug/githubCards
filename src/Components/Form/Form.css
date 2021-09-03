@@ -1,5 +1,5 @@
 form {
-    background-color: rgb(0, 1, 51, 67);
+    background-color: rgb(112, 112, 153);
     border-radius: 4px;
     padding: 2rem;
     margin: 2rem;
@@ -19,7 +19,6 @@ input {
 button {
     color: rgb(71, 23, 71);
     margin-left: 10px;
-    border-style: none;
     font-size: large;
     font-weight: bolder;
     border-radius: 4px;
