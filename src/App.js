@@ -16,7 +16,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <div className ="header">{this.props.title}</div>
+      <div className ="header">{this.props.title}<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-icon" width="65"/></div>
+      <div className ="subtitle">{this.props.subtitle}</div>
       <Form onSubmit={this.addNewProfile} />
       <CardList profiles={this.state.profiles} />
       </>
